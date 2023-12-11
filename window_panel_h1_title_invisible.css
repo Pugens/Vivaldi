@@ -1,0 +1,5 @@
+.panel > header h1{
+    font-size: 0;
+    color: transparent; /* make the text invisible */
+    user-select: none; /* prevent selection of the text */
+}
