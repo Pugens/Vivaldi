@@ -1,0 +1,138 @@
+* Auto hide bookmark bar
+ * Written by Tam710562
+ */
+#browser.tabs-top.address-top.bookmark-bar-top .mainbar,
+#browser.tabs-top.address-bottom.bookmark-bar-bottom .mainbar,
+#browser.tabs-top.address-bottom.bookmark-bar-top .mainbar,
+#browser.tabs-bottom.address-top.bookmark-bar-top .mainbar,
+#browser.tabs-bottom.address-bottom.bookmark-bar-bottom .mainbar,
+#browser.tabs-left.address-top.bookmark-bar-top .mainbar,
+#browser.tabs-left.address-bottom.bookmark-bar-bottom .mainbar,
+#browser.tabs-right.address-top.bookmark-bar-top .mainbar,
+#browser.tabs-right.address-bottom.bookmark-bar-bottom .mainbar {
+  z-index: 5;
+}
+
+#browser.tabs-top.address-top.bookmark-bar-top .bookmark-bar,
+#browser.tabs-top.address-bottom.bookmark-bar-bottom .bookmark-bar,
+#browser.tabs-top.address-bottom.bookmark-bar-top .bookmark-bar,
+#browser.tabs-bottom.address-top.bookmark-bar-top .bookmark-bar,
+#browser.tabs-bottom.address-bottom.bookmark-bar-bottom .bookmark-bar,
+#browser.tabs-left.address-top.bookmark-bar-top .bookmark-bar,
+#browser.tabs-left.address-bottom.bookmark-bar-bottom .bookmark-bar,
+#browser.tabs-right.address-top.bookmark-bar-top .bookmark-bar,
+#browser.tabs-right.address-bottom.bookmark-bar-bottom .bookmark-bar {
+  position: absolute !important;
+  width: 100%;
+  transition: transform 0.2s !important;
+  z-index: 4;
+}
+
+/* tabs-top address-top bookmark-bar-top */
+#browser.tabs-top.address-top.bookmark-bar-top .bookmark-bar {
+  top: 34px;
+  transform: translateY(-100%);
+}
+
+#browser.tabs-top.address-top.bookmark-bar-top .bookmark-bar:hover,
+#browser.tabs-top.address-top.bookmark-bar-top .bookmark-bar:focus-within,
+#browser.tabs-top.address-top.bookmark-bar-top .mainbar:hover~.bookmark-bar,
+#browser.tabs-top.address-top.bookmark-bar-top #header:hover~#main .bookmark-bar {
+  transform: translateY(0);
+}
+
+/* tabs-top address-bottom bookmark-bar-bottom */
+#browser.tabs-top.address-bottom.bookmark-bar-bottom .bookmark-bar {
+  bottom: 34px;
+  transform: translateY(100%);
+}
+
+#browser.tabs-top.address-bottom.bookmark-bar-bottom .bookmark-bar:hover,
+#browser.tabs-top.address-bottom.bookmark-bar-bottom .bookmark-bar:focus-within,
+#browser.tabs-top.address-bottom.bookmark-bar-bottom .mainbar:hover~.bookmark-bar {
+  transform: translateY(0);
+}
+
+/* tabs-top address-bottom bookmark-bar-top */
+#browser.tabs-top.address-bottom.bookmark-bar-top .bookmark-bar {
+  top: 0;
+  transform: translateY(-100%);
+}
+
+#browser.tabs-top.address-bottom.bookmark-bar-top .bookmark-bar:hover,
+#browser.tabs-top.address-bottom.bookmark-bar-top .bookmark-bar:focus-within,
+#browser.tabs-top.address-bottom.bookmark-bar-top #header:hover~#main .bookmark-bar {
+  transform: translateY(0);
+}
+
+/* tabs-bottom address-top bookmark-bar-top */
+#browser.tabs-bottom.address-top.bookmark-bar-top .bookmark-bar {
+  top: 34px;
+  transform: translateY(-100%);
+}
+
+#browser.tabs-bottom.address-top.bookmark-bar-top .bookmark-bar:hover,
+#browser.tabs-bottom.address-top.bookmark-bar-top .bookmark-bar:focus-within,
+#browser.tabs-bottom.address-top.bookmark-bar-top .mainbar:hover~.bookmark-bar {
+  transform: translateY(0);
+}
+
+/* tabs-bottom address-bottom bookmark-bar-bottom */
+#browser.tabs-bottom.address-bottom.bookmark-bar-bottom .bookmark-bar {
+  bottom: 5px;
+  transform: translateY(0);
+}
+
+#browser.tabs-bottom.address-bottom.bookmark-bar-bottom .bookmark-bar:hover,
+#browser.tabs-bottom.address-bottom.bookmark-bar-bottom .bookmark-bar:focus-within,
+#browser.tabs-bottom.address-bottom.bookmark-bar-bottom .mainbar:hover~.bookmark-bar {
+  transform: translateY(-100%);
+}
+
+/* tabs-left address-top bookmark-bar-top */
+#browser.tabs-left.address-top.bookmark-bar-top .bookmark-bar {
+  top: 34px;
+  transform: translateY(-100%);
+}
+
+#browser.tabs-left.address-top.bookmark-bar-top .bookmark-bar:hover,
+#browser.tabs-left.address-top.bookmark-bar-top .bookmark-bar:focus-within,
+#browser.tabs-left.address-top.bookmark-bar-top .mainbar:hover~.bookmark-bar {
+  transform: translateY(0);
+}
+
+/* tabs-left address-bottom bookmark-bar-bottom */
+#browser.tabs-left.address-bottom.bookmark-bar-bottom .bookmark-bar {
+  bottom: 5px;
+  transform: translateY(0);
+}
+
+#browser.tabs-left.address-bottom.bookmark-bar-bottom .bookmark-bar:hover,
+#browser.tabs-left.address-bottom.bookmark-bar-bottom .bookmark-bar:focus-within,
+#browser.tabs-left.address-bottom.bookmark-bar-bottom .mainbar:hover~.bookmark-bar {
+  transform: translateY(-100%);
+}
+
+/* tabs-right address-top bookmark-bar-top */
+#browser.tabs-right.address-top.bookmark-bar-top .bookmark-bar {
+  top: 34px;
+  transform: translateY(-100%);
+}
+
+#browser.tabs-right.address-top.bookmark-bar-top .bookmark-bar:hover,
+#browser.tabs-right.address-top.bookmark-bar-top .bookmark-bar:focus-within,
+#browser.tabs-right.address-top.bookmark-bar-top .mainbar:hover~.bookmark-bar {
+  transform: translateY(0);
+}
+
+/* tabs-right address-bottom bookmark-bar-bottom */
+#browser.tabs-right.address-bottom.bookmark-bar-bottom .bookmark-bar {
+  bottom: 5px;
+  transform: translateY(0);
+}
+
+#browser.tabs-right.address-bottom.bookmark-bar-bottom .bookmark-bar:hover,
+#browser.tabs-right.address-bottom.bookmark-bar-bottom .bookmark-bar:focus-within,
+#browser.tabs-right.address-bottom.bookmark-bar-bottom .mainbar:hover~.bookmark-bar {
+  transform: translateY(-100%);
+}
