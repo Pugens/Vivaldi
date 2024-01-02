@@ -1,0 +1,5 @@
+#browser .window-buttongroup {
+    z-index: -1;
+    scale: 0px;
+    user-select: none;
+}
