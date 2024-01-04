@@ -1,18 +1,17 @@
 /* https://forum.vivaldi.net/topic/34672/auto-hide-bookmark-bar */
-.mainbar
-{
-  z-index: 5;
-}
 .bookmark-bar-top .bookmark-bar {
   position: absolute !important;
-  top: 44px;
+  /* top: 44px; */
+  top: -2px;
   width: 100%;
   transition: transform 0.2s !important;
-  height: 38px;
-  border-bottom-width: 5px;
+  height: 30px;
+  border-bottom-width: 1px;
+  border-style: hidden;
   z-index: 4;
   transform: translateY(-80%)
 }
+
 .bookmark-bar-top .bookmark-bar:hover,
 .bookmark-bar-top .bookmark-bar:focus-within,
 .bookmark-bar-top .bookmark-bar:hover~.bookmark-bar,
