@@ -1,7 +1,7 @@
 /* #browser.win:not(.fullscreen, .disable-titlebar) #header { */
-#browser.win #header, .mainbar {
+/* #browser.win #header, .mainbar {
     z-index: -1;
     height: 0px;
     border: 0 !important;
     user-select: none;
-}
+} */

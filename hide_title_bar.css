@@ -1,0 +1,27 @@
+/* button.vivaldi {
+    scale: 0 !important;
+}
+
+div#pagetitle {
+    scale: 0 !important;
+} */
+
+
+
+div#header {
+    min-height: 0px !important;
+    user-select: none !important;
+    /* border-color: black !important; */
+    /* border-bottom-width: 0px !important; */
+    /* border-bottom-color: #!important; */
+}
+/* 
+html * {
+    box-sizing: unset !important;
+}
+
+.inner {}
+
+.inner {
+    border-top-width: -4px !important;
+} */
