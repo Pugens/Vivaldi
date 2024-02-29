@@ -4,10 +4,10 @@
 
 
 .tree-row.tree-row-selected.tree-row-selected--first.tree-row-selected--last {
-    background-color: #00443e !important;
+    background-color: #ddebea  !important;
 }
 
 
 .win .vivaldi-tree .tree-item[data-lead] .tree-row.tree-row:not([data-nofocus]), .linux .vivaldi-tree .tree-item[data-lead] .tree-row.tree-row:not([data-nofocus]){
-    background-color: #00443e !important;
+    background-color: #ddebea !important;
 }
