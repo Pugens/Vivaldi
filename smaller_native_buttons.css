@@ -1,0 +1,8 @@
+/* make smaller native window control buttons */
+.disable-titlebar#browser.win .window-buttongroup button {
+    height: 34px !important;
+    margin-top: 6px !important;
+    border-radius: var(--radius) !important;
+    margin-left: auto !important;
+    color: inherit !important;
+}
