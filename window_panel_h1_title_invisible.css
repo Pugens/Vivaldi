@@ -3,3 +3,8 @@
     color: transparent; /* make the text invisible */
     user-select: none; /* prevent selection of the text */
 }
+
+.panel {
+    padding-top: 30px !important;
+  }
+  

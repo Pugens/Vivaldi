@@ -1,21 +1,21 @@
 /* https://forum.vivaldi.net/topic/34672/auto-hide-bookmark-bar */
 .mainbar{
   height: 46px !important;
-  z-index: 5 !important;
+  z-index: 4 !important;
 }
 .bookmark-bar {
   position: absolute !important;
-  top: 44px !important;
+  top: 0px !important;
   width: 100% !important;
-  height: 40px !important;
-  border-bottom-width: 5px  !important;
-  /* border-style: hidden !important; */
-  z-index: 4 !important; 
+  height: 35px !important;
+  /* border-bottom-width: 5px  !important; */
+  border-style: hidden !important;
+  z-index: 5 !important; 
 }
 
 .bookmark-bar:not(:hover) {
   transition: transform 0.2s ease-in-out !important;
-  transform: translateY(-85%)
+  transform: translateY(-80%)
 }
 
 .bookmark-bar:hover,
@@ -26,13 +26,9 @@
   transform: translateY(-0%)
 }
 
-.inner {
+/* .inner {
   top: 5px !important;
-}
-
-.panel {
-  padding-top: 25px !important;
-}
+} */
 
 /*
 .bookmark-bar-top .bookmark-bar {
