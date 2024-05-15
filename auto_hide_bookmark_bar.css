@@ -1,16 +1,16 @@
 /* https://forum.vivaldi.net/topic/34672/auto-hide-bookmark-bar */
 .mainbar{
-  height: 46px !important;
+  height: 36px !important;
   z-index: 4 !important;
 }
 .bookmark-bar {
   position: absolute !important;
-  top: 0px !important;
+  top: -2px !important;
   width: 100% !important;
-  height: 35px !important;
-  /* border-bottom-width: 5px  !important; */
+  height: 36px !important;
+  border-bottom-width: 12px !important;
   border-style: hidden !important;
-  z-index: 5 !important; 
+  z-index: 5 !important;
 }
 
 .bookmark-bar:not(:hover) {
