@@ -1,3 +1,6 @@
 tab-header {
     --radiusCap: 3px;
 }
+#header {
+    min-height: calc(25px);
+}
