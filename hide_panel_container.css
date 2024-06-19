@@ -1,0 +1,7 @@
+#panels-container {
+    width: 0px !important;
+}
+
+#panels>div.panel-group {
+    right: 0px !important;
+}

@@ -1,24 +1,24 @@
 /* .panels-container{
     width: 35px;
-} */
+}
 
-/* #panels-container element.style {
+#panels-container element.style {
     --duration: 0ms;
     transition: width var(--duration) cubic-bezier(1, 0.01, 0.25, 1.02);
     width: 107px;
-} */
-/* #panels-containe:hover,
-#panels-containe:focus-within {
+}
+#panels-container:hover,
+#panels-container:focus-within {
     width: 260px;
     transition: transform 2s 1s !important;
-}  */
+} 
 
-/* .panel-group {
+.panel-group {
     position: absolute;
     z-index: 3;
     height: 100%;
     transition: transform .5s .2s !important;
-}
+} 
 
 #panel-group:not(:hover) {
     transform: translateX(-100%);
